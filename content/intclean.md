@@ -1,5 +1,5 @@
 ---
-weight: 1
+weight: 3
 title: "Intensive Cleanse | Beatrix Berkics"
 description: "The intensive cleanse brooms out all the wastes, toxins and trash the body accumulated over any period of time."
 nav_heading: "Intensive Cleanse"
@@ -8,7 +8,7 @@ case_short_title: "Intensive Cleanse"
 case_title: "Intensive Cleanse for deep detoxification"
 case_subtitle: "Tissues Re-Built"
 case_description: "It's a simple, plant-based cleanse that is not based on deprivation or starvation but on enjoying the abundance of the right kind of foods in the right combination."
-case_feature_img: "berry-juice.jpg"
+case_feature_img: "juices.jpg"
 case_summary: "My years of experience in the area of cleansing and detoxification brought about as many different views to the subject as people in the world. Everybody is different and needs to be treated in accordance to his/her needs."
 testimonial: "I love your recipes. They are easy to prepare and balanced with good nutrition. I feel great and I sleep so well. I have lost 3 pounds without effort. This was the jumpstart I needed and the community to keep me accountable and connected. " 
 testimonial_photo: "testimonial.jpg"
