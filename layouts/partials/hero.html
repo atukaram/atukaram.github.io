@@ -1,0 +1,18 @@
+<section id="scroll-element" data-scroll-index="0">
+    <div class="hero-up">
+        <!--<h1 class="hero-header">{{ .Site.Title }}</h1> <span><img class="logo-header" src="{{ .Site.BaseURL }}img/logo-herz.png" alt="{{ .Site.Title }}"></span>-->
+        <h1 class="hero-header">{{ .Site.Title }}</h1> 
+        <h2 class="hero-subtitle">{{ .Site.Params.Hero.subtitle }}</h2>
+    </div>
+    <div class="hero">
+        <div class="hero-down">
+            <div class="projects-item">
+                 <figure class="item-header">
+                    <img src="svg/sun.svg">
+                    <h3>About me</h3>
+                </figure>
+                <p>{{ .Site.Params.Hero.hero_right }}</p>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,26 @@
+<section data-scroll-index="1">
+    <div class="projects">
+        <div class="header">
+            <h1 class="title">{{ .Site.Params.Projects.Title }}</h1>
+            <h2 class="subtitle">{{ .Site.Params.Projects.Subtitle }}</h2>
+        </div>
+        <div class="projects-wrapper">
+            {{ $baseUrl := .Site.BaseURL }}
+            {{ range $element := sort .Site.Data.projects "weight" }}
+            <div class="projects-item">
+                <figure class="item-header">
+                    <img src="svg/{{ $element.icon }}">
+                    <h3>{{ $element.title }}</h3>
+                </figure>
+                <p>{{ $element.description }}</p>
+
+                <figure class="projects-image">
+                    <img src="img/{{ $element.primg }}" alt="">
+                </figure>
+                <p>{{ $element.epilog }}</p>
+
+            </div> 
+            {{ end }}
+        </div>
+    </div>
+</section>
