@@ -198,11 +198,12 @@ section:first-of-type {
 }
 
 .hero-subtitle {
+  position: absolute;
+  top: 6em;
+  left: 2.8em;
   font-size: 28px;
   color: #5A54AF;
   font-weight: 300;
-  margin: 0px;
-  padding: 3% 0px 0px 10%;
 }
 
 .subtitle {
@@ -212,12 +213,15 @@ section:first-of-type {
 }
 
 .hero-up {
-  height: 400px;
+  width: 100%;
+  position: relative;
+  /*height: 400px;
+  margin: 23px 0px 50px 0px;
   background: url("../img/bg-imgage.jpg") no-repeat center top fixed;
   background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
-  -webkit-background-size: contain;
+  -webkit-background-size: contain;*/
 }
 
 .hero-down {
@@ -281,11 +285,12 @@ section:first-of-type {
 }
 
 .hero-header {
+  position: absolute;
   font-family: Roboto;
+  top: 1em;
+  left: 1em;
   font-weight: bold;
   font-size: 72px;
-  margin: 23px 0px 0px 0px;
-  padding: 7% 0px 0px 10%;
   color: #000000;
   letter-spacing: 8px;
   line-height: 0.4em;
