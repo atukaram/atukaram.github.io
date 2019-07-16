@@ -1,47 +1,49 @@
 ---
-weight: 3
-title: "Intensive Cleanse | Beatrix Berkics"
-description: "The intensive cleanse brooms out all the wastes, toxins and trash the body accumulated over any period of time."
-nav_heading: "Intensive Cleanse"
-thumbnail: "blackberries.jpg"
-case_short_title: "Intensive Cleanse" 
+# frontmatter
+weight: 1
+title: "Detox Yourself | Beatrix Berkics"
+case_subtitle: "Intense Detoxification for increased health"
+thumbnail: "case_study_detox.jpg"
+case_short_title: "Detox Yourself" 
+## next a repition of case_subtitle
+case_description: "Disease and poor health are more often made then born! Wrong diet, wrong thinking, stress etc. But we are responsible for our health, no one else. Take your health in your hand. Change your way of thinking and what you put into your body."
+# main matter
 case_title: "Intensive Cleanse for deep detoxification"
-case_subtitle: "Tissues Re-Built"
-case_description: "It's a simple, plant-based cleanse that is not based on deprivation or starvation but on enjoying the abundance of the right kind of foods in the right combination."
-case_feature_img: "juices.jpg"
-case_summary: "My years of experience in the area of cleansing and detoxification brought about as many different views to the subject as people in the world. Everybody is different and needs to be treated in accordance to his/her needs."
-testimonial: "I love your recipes. They are easy to prepare and balanced with good nutrition. I feel great and I sleep so well. I have lost 3 pounds without effort. This was the jumpstart I needed and the community to keep me accountable and connected. " 
-testimonial_photo: "testimonial.jpg"
-testimonial_author: "Nancy D."
-testimonial_subtitle: "Knitting Teacher, Ph. D."
-date: 2019-01-15T03:29:08-07:00
+## next a repition of case_subtitle
+nav_heading: "Intensive Cleanse for deep detoxification"
+case_feature_img: "detox.jpg"
+case_summary: "Disease and poor health are more often made then born! Wrong diet, wrong thinking, stress etc. But we are responsible for our health, no one else. Take your health in your hand. Change your way of thinking and what you put into your body."
+description: "Your body is a temple and it should be treated this way."
+## testimonials
+#testimonial: "I love your recipes. They are easy to prepare and balanced with good nutrition. I feel great and I sleep so well. I have lost 3 pounds without effort. This was the jumpstart I needed and the community to keep me accountable and connected. " 
+#testimonial_photo: "testimonial.jpg"
+#testimonial_author: "Nancy D."
+#testimonial_subtitle: "Knitting Teacher, Ph. D."
+date: 2019-07-16T03:29:08-07:00
 draft: false
 ---
 
-# Would you like to: 
+# We do need the change more then ever. 
+Nowadays, what we call food is not nourishing us but makes us weak, sick and powerless. Medications repress symptoms and creates more poison for the body, preventing all healing effort.
 
-* Lose weight?
-* Increase your energy?
-* Be happier?
-* Experience a week of no meat, dairy, gluten, or bad sugars?
-* Create sustainable, healthy eating habits and recipes that will last beyond this week?
+When you clean your intestine, you will feel lighter, lose weight, increase your power, become vibrant, all the symptoms will disappear, clarity of the mind, positive thinking. Then you will become a magnet and attract what you are.
 
-# If so, this 7-Day Reset Method Cleanse is for you.
+> The bowel is the king because whenever the integrity of its tissues has been affected it has an effect on the organ as well.
 
-It's a simple, plant-based cleanse that is not based on deprivation or starvation but on enjoying the abundance of the right kind of foods in the right combination.
+## Heal yourself by :
 
-# What's included in the 7-Day Reset Method Cleanse?
+- Regenerative Detoxification
+- Cleansing and healing protocols Specific recipes
+    - Raw food classes :
+        - Juices,
+        - Raw cake preparation
+        - Smoothies
+        - Specific recipes
 
-*    7-Day plant-based guided program
-*    7-Day menu
-*    My personal recipes
-*    Grocery list
-*    Kitchen tool list
-*    2 Q&A and education calls
-*    Daily Facebook Live videos and posts
-*    Group support during the program
-*    Private Facebook group page with all documents, information, and friends to support you
-*    The start of a healthy lifestyle that you can easily apply and maintain
-*    A chance to feel fantastic and have the body you've always wanted (Priceless!)
+    - Juice fasting
+        - Fasting
+        - Liver cleanse
+        - Emotional healing
+        - Self-love
 
-# DID YOU KNOW? 95% of our 7-Day Reset Method Participants have never eaten plant-based, raw living foods before!
+#  We create our own happiness .

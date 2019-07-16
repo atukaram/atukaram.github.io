@@ -9,7 +9,7 @@ theme = "lodi"
     description_photo = "portfolio.jpg"
     favicon = "favicon.ico"
     logo = "logo-2.png"
-    email = "beatrix.berkics@gmail.com"
+    email = "Healyourselftoday.eu@gmail.com"
 
 [params.nav]
     enable = true
@@ -27,7 +27,7 @@ theme = "lodi"
     # resume = "ResumeCollado.pdf"
 [params.projects]
     enable = true
-    title = "My Projects"
+    title = "Health is your choice"
     subtitle = "Guidelines on a wonderful path"
 
 [params.quotes]
@@ -41,7 +41,7 @@ theme = "lodi"
 [params.case_studies]
     enable = true
     title = "Services"
-    subtitle = "Lifestyle Coaching based on Life-Flow"
+    subtitle = "Lifestyle Coaching to heal yourself"
 
 [params.footer]
     enable = true
