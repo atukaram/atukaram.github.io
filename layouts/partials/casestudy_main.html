@@ -1,16 +1,31 @@
 <section>
     <div class="main-case-study" data-scroll-index="0"> 
-        <div class="main-case-init" >
-            <img src="img/{{ .Params.case_feature_img }}" alt="" style="width:100%;margin:23px 0px 50px 0px;">
-            <div class="main-case-init-wrapper">
-                <h1 class="hero-header">{{ .Params.case_title }}</h1>
-                <h2 class="hero-subtitle">{{ .Params.case_subtitle }}</h2>
+        <div class="case-init" >
+            <div class="case-init-wrapper">
+                <h5 class="struct">{{ .Params.case_struct }}</h5>
+                <h1 class="case-title">{{ .Params.case_title }}</h1>
+                <h2 class="case-summary">{{ .Params.case_summary }}</h2>
+            </div>
+            <div>
+                <figure class="main-case-image">
+                    <img src="img/{{ .Params.case_feature_img }}" alt="" >
+                <figcaption class="figure-caption">
+                    <span class="figure-text">{{ .Params.case_feature_img_description }}</span>
+                </figcaption>
+                </figure>
+            </div>
+            <div class="case-init-wrapper">
+                    <h1 class="case-motto">{{ .Params.case_motto }}</h1>
+            </div>
+            <div class="content-case-study">
+                <div class="case-init-wrapper">
+                    {{ .Content }}
+                </div>
+            </div>
             </div>
         </div>
 
-            <p class="summary">{{ .Params.case_summary }}</p>
-            <h1 style="color: black; font-family: merriweather; font-size: 26px; line-height: 1.7em; margin-top: 20px;">{{ .Description }}</h1>
-        <div class="case-links">
+        <!-- <div class="case-links">
             {{ $baseUrl := .Site.BaseURL }}
             {{ range $element := .Params.button_links }}
             <div class="link-div">
@@ -24,6 +39,6 @@
                 </a>
             </div>
             {{ end }}
-        </div>
+        </div>-->
     </div>
 </section>

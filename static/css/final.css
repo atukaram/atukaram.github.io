@@ -6,7 +6,7 @@
 }
 
 body {
-  font-size: 16px;
+  font-size: 1.1rem;
   font-family: Roboto;
   margin: 0;
   padding: 0;
@@ -376,10 +376,10 @@ section:first-of-type {
 
 .projects-item p {
   /* I collaborate with s: */
-  font-size: 16px;
+  font-size: 1.2rem;
   color: #777777;
   letter-spacing: 0;
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 
 .projects-item h3 {
@@ -554,30 +554,46 @@ section:first-of-type {
   /*margin-top: 30px;*/
 }
 
+.main-case-study figure {
+  margin: 2em 60px;
+}
 .main-case-study img {
   max-width: 100%;
 }
 
-.main-case-init {
+.main-case-study .case-init {
   position: relative;
 }
 
-.main-case-init-wrapper {
-  position: absolute;
-  margin: 4% 7%;
-  top: 1em;
+.main-case-study .case-init-wrapper {
+  margin: 23px 100px 0px 100px;
 }
 
-.main-case-study .hero-subtitle {
-  position: unset;
-  top: 0%;
-  left: 0%;
+.main-case-study .case-title {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
 }
 
-.main-case-study .hero-header {
-  position: unset;
-  letter-spacing: 0px;
-  line-height: 1em;
+.main-case-study .case-init-wrapper .struct {
+  position: relative;
+  top: 2em;
+  color: #5A54AF;
+}
+
+.main-case-study .case-summary {
+  font-weight: 300;
+  color: #000000;
+  line-height: 39px;
+}
+
+.main-case-study .case-motto {
+  color: black; 
+  font-family: merriweather; 
+  font-size: 26px; 
+  line-height: 1.7em; 
+  margin-top: 20px;"
 }
 
 .main-case-study .title {
@@ -602,6 +618,18 @@ section:first-of-type {
   color: #000000;
   letter-spacing: 0;
   line-height: 39px;
+}
+
+.main-case-image .figure-caption {
+  margin: 0.5rem auto 0;
+  max-width: 50rem;
+}
+
+.main-case-image .figure-text {
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 1.5;
 }
 
 .case-study-item img {
@@ -675,7 +703,6 @@ section:first-of-type {
 .content-case-study p {
   /* Each member of our t: */
   font-family: Roboto;
-  font-size: 19px;
   color: #676767;
   letter-spacing: 0;
   line-height: 30px;
@@ -694,6 +721,134 @@ section:first-of-type {
 .content-case-study h1 {
   margin: 0;
   margin-top: 2.4em;
+}
+
+ .content-case-study blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+ .content-case-study blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+ .content-case-study blockquote p {
+  display: inline;
+}
+
+/* Order list style */
+ol.ol-list {
+  counter-reset: my-ol-counter;
+  margin-left:1.4em;
+}
+
+ol.ol-list li {
+  position: relative;
+  padding-left: 30px;
+  list-style: none;
+}
+
+ol.ol-list li:before {
+  position: absolute;
+  top:50%;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  color: #fff;
+  text-align:center;
+  background-color: #0274be;
+  content: counter(my-ol-counter,decimal);
+  counter-increment: my-ol-counter;
+  font-size: 11px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+ 
+/* Unordered list style */
+.case-init-wrapper ul {
+  line-height: 1.7rem;
+}
+
+.case-init-wrapper ul li {
+  position: relative;
+  padding-left: 30px;
+  list-style: none;
+  color: #676767;
+}
+
+.case-init-wrapper ul li:after{
+  position: absolute;
+  top: -webkit-calc( 50% - -1px);
+  top: calc( 50% - -1px);
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: -13px;
+  padding-top: 2px;
+  color: #fff;
+  text-align:center;
+  background-color: #574cdd;;
+  content: ">";
+  font-size: 20px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 1.1rem;
+}
+
+.case-inspire-wrapper .case-inspiring-words {
+  margin: 50px 10px;
+  text-align: center;
+  position: relative;
+}
+
+.case-inspire-wrapper h1 {
+  color: #000;
+  font-family: 'Cardo', serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 0.1em;
+  line-height: 2.2em;
+}
+
+.case-inspiring-words em {
+  font-family: 'EB Garamond', serif;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+  font-style:normal;
+  padding-top: 0.1em;
+  text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+.case-inspiring-words em::before, .case-inspiring-words em::after {
+  content: "§";
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+	opacity: 0.2;
+  margin: 0 0.6em;
+  font-size: 0.5em;
+}
+
+.bottom {
+  font-size: 1.5em;
+  letter-spacing: 0.07em;
+  font-size: 1em;
+  display: block;
 }
 
 @media all and (max-width: 513px) {
