@@ -10,6 +10,7 @@ theme = "lodi"
     favicon = "favicon.ico"
     logo = "logo-2.png"
     email = "Healyourselftoday.eu@gmail.com"
+    disclaimer ="atukaram"
 
 [params.nav]
     enable = true

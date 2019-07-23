@@ -26,13 +26,27 @@ a:hover {
 
 }
 
-footer {
+.footer {
   padding: 30px 30px 30px 30px;
   max-width: 1000px;
   margin: 0 auto;
   display: flex !important;
   justify-content: space-between;
-  border-bottom: 1px solid #F0F0F0;
+  /* border-bottom: 1px solid #F0F0F0; */
+}
+
+.disclaimer {
+  display: block !important;
+}
+
+.disclaimer > hr {
+    width: 20%;
+    margin-left: 40%;
+    color: blue;
+    background-color: blue;
+    border: 0px;
+    height: 1px;
+    background-image: linear-gradient(to right, #fff, #ababab, #fff);
 }
 
 .main-navigation {
@@ -157,6 +171,18 @@ section:first-of-type {
 }
 
 .projects {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer-wrapper {
   max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
