@@ -39,7 +39,7 @@ includes
 
 - A health assessment
 - An irodology analysis
-- A complete healing herbal protocol
 - A detox diet plan tailored to you and your health issues
+- A complete healing herbal protocol
 - A one on one phone or skype consultation
 - Educational detox materials: Detox guide instructions and tools
