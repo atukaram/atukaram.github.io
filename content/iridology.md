@@ -1,6 +1,6 @@
 ---
 # frontmatter
-weight: 2
+weight: 3
 title: "Detox Yourself | Beatrix Berkics"
 case_subtitle: "Health assessment through the analysis of the eye"
 thumbnail: "person-eye-thumb.jpg"
@@ -28,7 +28,9 @@ date: 2019-07-16T03:29:08-07:00
 draft: false
 ---
 
-Iridology is used as more of a diagnostic tool than a treatment. It is not a medical exam or a definitive diagnosis of disease. Rather, it proposes to recognize Toxins and their locations, stages of inflammation, inherent weakness or strength, general health level and biochemical deficiencies.
+Iridology is a study of the iris of the eyes, as it relates to cellular weaknesses (genetics) and congestion (toxicity). Iridology is practiced worldwide and dates back over 500 years. The Science of Iridology is growing leaps and bounds as specialized cameras and computers are designed to take an even deeper look into the study of the iris. Every cell in your body reflects itself through the nervous system to the brain and optic nerves. As tissues become weakened and congested, changes occur in the fibers of the iris of the eye. The iris fibers have been mapped out correspondingly to the related tissues in the body. By observing these fibers, changes and colors in the iris, we can analyze your body's strengths, weaknesses and toxicity levels.
+
+Your iris fibers tell a story of your body's cellular strengths and weaknesses, starting with your inherent patterns given to you by your parents. The iris of the eye registers tissue changes as they relate to cellular strengths, weaknesses and toxicity.
 
 In reading the iris to gain insight to the body there are several characteristics that are studied. These include, but are not limited to layers, colors, rings and spots.
 
