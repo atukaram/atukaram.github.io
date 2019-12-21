@@ -36,6 +36,7 @@ When you clean your intestine, you will feel lighter, lose weight, increase your
 
 #### Basic individual package
 includes
+
 - A health assessment
 - An irodology analysis
 - A complete healing herbal protocol
