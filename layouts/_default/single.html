@@ -11,15 +11,24 @@
         {{ partial "testimonial.html" . }}
         {{ end}}
 
-        <section>
-            <div class="case-inspire-wrapper main-case-study">
-                <h1 class="case-inspiring-words">{{ .Params.case_outro_in }} <em>{{ .Params.case_outro_keyword }}</em> {{ .Params.case_outro_off }}</h1>
+        <section class="case-email">
+            <div class="main-case-study">
+                <h1 style="text-align: center;"> I'd love to hear from you</h1>
+                <h3 style="text-align: center; font-weight: 100; margin-bottom: 6px;"> Whether you have questions about the program, trails, pricing, need a demo, or anything else,</h3>
+                <h3 style="text-align: center; font-weight: 100; margin-top: 0px; margin-bottom: 6px;"> I'm ready to answer all your questions</h3>
+                <h2 style="text-align: center;">  Healyourselftoday.eu (at) gmail.com </h2>
             </div>
         </section>
 
         {{ if .Site.Params.case_studies.enable }}
         {{ partial "case_studies.html" . }}
         {{ end }}
+
+        <section class="case-motto-svg">
+            <div class="case-inspire-wrapper main-case-study">
+                <h1 class="case-inspiring-words">{{ .Params.case_outro_in }} <em>{{ .Params.case_outro_keyword }}</em> {{ .Params.case_outro_off }}</h1>
+            </div>
+        </section>
 
         {{ if .Site.Params.footer.enable }}
         {{ partial "footer.html" . }}
