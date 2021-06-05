@@ -7,30 +7,35 @@
         <div class="case-studies-wrapper">
             {{ $baseUrl := .Site.BaseURL }}
             {{ range where .Site.Pages "Kind" "page" }}
+
             <div class="case-study-item">
-                {{ if isset .Params "case_description_addon" }}
+
+                {{ if isset .Params "case_filler" }}
                     <img src="{{ $baseUrl }}img/{{ .Params.thumbnail }}" alt="">
-                {{ else}}
-                    <a href="{{ .Permalink }}"><img src="{{ $baseUrl }}img/{{ .Params.thumbnail }}" alt=""></a>
-                {{ end}}
+                {{ else }}
+                    {{ if isset .Params "case_description_addon" }}
+                        <img src="{{ $baseUrl }}img/{{ .Params.thumbnail }}" alt="">
+                    {{ else}}
+                        <a href="{{ .Permalink }}"><img src="{{ $baseUrl }}img/{{ .Params.thumbnail }}" alt=""></a>
+                    {{ end}}
 
-                <h4>{{ .Params.case_short_title }}</h4>
-                <h5>{{ .Params.case_subtitle }}</h5>
-                <p>{{ .Params.case_description }}</p>
+                    <h4>{{ .Params.case_short_title }}</h4>
+                    <h5>{{ .Params.case_subtitle }}</h5>
+                    <p>{{ .Params.case_description }}</p>
 
-                {{ if isset .Params "case_description_addon" }}
-                    <h2>{{ .Params.case_description_time }} | {{ .Params.services_paypal_price }} €</h2>
-                    <p>{{ .Params.case_description_addon }}</p>
-                    <div id="{{ .Params.services_paypal }}"></div>
-                    <script>
-                        // Render the PayPal button into #paypal-button-container
-                        paypal.Buttons({
-                            style: {
-                                color:  'silver',
-                                shape:  'rect',
-                                label:  'paypal',
-                                size:   'responsive'
-                            },
+                    {{ if isset .Params "case_description_addon" }}
+                        <h2>{{ .Params.case_description_time }} | {{ .Params.services_paypal_price }} €</h2>
+                        <p>{{ .Params.case_description_addon }}</p>
+                        <div id="{{ .Params.services_paypal }}"></div>
+                        <script>
+                            // Render the PayPal button into #paypal-button-container
+                            paypal.Buttons({
+                                style: {
+                                    color:  'silver',
+                                    shape:  'rect',
+                                    label:  'paypal',
+                                    size:   'responsive'
+                                },
                             // Set up the transaction
                             createOrder: function(data, actions) {
                                 return actions.order.create({
@@ -49,9 +54,10 @@
                                 });
                             }
                         }).render('#{{ .Params.services_paypal}}');
-                    </script>
-                {{ else }}
-                    <a href="{{ .Permalink }}" class="read-more">Read Me</a>
+                        </script>
+                    {{ else }}
+                        <a href="{{ .Permalink }}" class="read-more">Read Me</a>
+                    {{ end }}
                 {{ end }}
             </div>
             {{ end }}
