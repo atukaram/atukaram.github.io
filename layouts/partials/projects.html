@@ -12,13 +12,12 @@
                     <img src="svg/{{ $element.icon }}">
                     <h3>{{ $element.title }}</h3>
                 </figure>
-                <p>{{ $element.description }}</p>
+                <p>{{ $element.description | safeHTML }}</p>
 
                 <figure class="projects-image">
                     <img src="img/{{ $element.primg }}" alt="">
                 </figure>
-                <p>{{ $element.epilog }}</p>
-
+                <p>{{ $element.epilog | safeHTML }}</p>
             </div> 
             {{ end }}
         </div>
