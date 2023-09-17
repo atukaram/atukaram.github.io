@@ -466,6 +466,10 @@ footer-wrapper {
   height: 35px;
 }
 
+.item-header>img {
+	width: 48px;
+}
+
 .process-item p {
   /* I collaborate with s: */
   font-size: 16px;
