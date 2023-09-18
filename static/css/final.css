@@ -312,7 +312,7 @@ footer-wrapper {
 
 .hero-header {
   position: absolute;
-  font-family: Roboto;
+  font-family: initial;
   top: 1em;
   left: 1em;
   font-weight: bold;
