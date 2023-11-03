@@ -41,5 +41,10 @@ theme = "lodi"
     title = "Services"
     subtitle = "Lifestyle Coaching to heal yourself"
 
+[params.events]
+    enable = true
+    title = "Events"
+    subtitle = "What am I doing, where and when"
+
 [params.footer]
     enable = true
