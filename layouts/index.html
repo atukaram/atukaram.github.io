@@ -25,6 +25,10 @@
             {{ partial "case_studies.html" . }}
             {{ end }}
 
+            {{ if .Site.Params.hero.enable }}
+            {{ partial "events.html" . }}
+            {{ end }}
+
             {{ if .Site.Params.quotes.enable }}
             {{ partial "quotes.html" . }}
             {{ end }}
