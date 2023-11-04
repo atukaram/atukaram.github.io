@@ -22,6 +22,14 @@
             });
         });
     });
+
+	$("a").click(function() {
+		var gotoId = $(this).data('scroll-goto');
+		$('html, body').animate({
+		scrollTop: $("section[data-scroll-index='" + gotoId + "']").offset().top
+		}, 500);
+	});
+
     $(function(){
         $.scrollIt({
             topOffset: -70,         // offste (in px) for fixed top navigation
